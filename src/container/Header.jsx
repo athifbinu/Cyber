@@ -62,7 +62,7 @@ const Header = () => {
         isScrolled ? "shadow-lg" : ""
       }`}
     >
-      <div className="md:flex items-center justify-between  py-4 md:px-10 px-7 ">
+      <div className="md:flex  items-center justify-between  py-4 md:px-10 px-7 ">
         <div className="font-bold cursor-pointer flex">
           <Link to="/" className="">
             <img src={logo} alt="Logo" className="h-10" />

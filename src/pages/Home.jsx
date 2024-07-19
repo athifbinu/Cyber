@@ -6,6 +6,13 @@ import imgfour from "../assets/image/img3.jpg";
 import "../styles/Home.css";
 import About from "./About";
 import { motion } from "framer-motion";
+import Service from "./Service";
+import bg1 from "../assets/image/bagr1.png";
+import bg2 from "../assets/image/bagr2.png";
+import Count from "./Count";
+import Journey from "./Journey";
+import TestimonialCard from "../container/ui/TestimonialCard";
+
 const images = [imgone, imgtwo, imgthree, imgfour];
 
 const Home = () => {
@@ -48,7 +55,6 @@ const Home = () => {
             >
               <img src={img} alt="" />
               <div className="content">
-                <div className="author">TEST</div>
                 <div className="title">CYBER SECURITY</div>
                 <div className="topic">CYBER</div>
                 <div className="des mb-24">
@@ -94,6 +100,23 @@ const Home = () => {
       <div className="container">
         <section>
           <About />
+        </section>
+      </div>
+
+      <div className="mb-10">
+        <div className="absolute ">
+          <img src={bg1} alt="" />
+        </div>
+        <div className="container mx-auto h-full relative">
+          <section className="h-full flex items-center">
+            <Service />
+          </section>
+        </div>
+      </div>
+
+      <div className="container mb-10">
+        <section>
+          <Journey />
         </section>
       </div>
     </div>
