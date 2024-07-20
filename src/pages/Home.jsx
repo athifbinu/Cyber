@@ -105,7 +105,7 @@ const Home = () => {
 
       <div className="mb-10">
         <div className="absolute ">
-          <img src={bg1} alt="" />
+          <img className="animate-pulse" src={bg1} alt="" />
         </div>
         <div className="container mx-auto h-full relative">
           <section className="h-full flex items-center">
@@ -114,11 +114,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container mb-10">
+      {/* <div className="container ">
         <section>
           <Journey />
         </section>
-      </div>
+      </div> */}
     </div>
   );
 };

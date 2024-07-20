@@ -63,7 +63,6 @@ const Service = () => {
     },
   ];
 
-  // Handle click outside the card
   useEffect(() => {
     function handleClickOutside(event) {
       if (cardRefs.current.every((ref) => ref && !ref.contains(event.target))) {
@@ -78,14 +77,14 @@ const Service = () => {
   return (
     <div className="relative z-10 container mx-auto py-8">
       <h2 className="text-4xl font-bold mb-16 text-white text-center ">
-        Our journey
+        Our Services
       </h2>
       <Slider {...settings}>
         {items.map((item, index) => (
           <div key={index} className="px-4">
             <div
               ref={(el) => (cardRefs.current[index] = el)}
-              className={`bg-white/20 backdrop-blur-md rounded-lg shadow-lg text-white p-6 border-2 transition-colors duration-300 ${
+              className={`bg-white/20 backdrop-blur-md rounded-lg shadow-lg text-white p-6 border-2 transition-colors duration-300  ${
                 selectedIndex === index
                   ? "  border-indigo-500"
                   : "border-transparent"
@@ -93,7 +92,11 @@ const Service = () => {
               onClick={() => setSelectedIndex(index)}
             >
               <div className="flex justify-center mb-4">
-                <img src={item.img} alt={item.title} className="w-24 h-auto" />
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-24 h-auto animate-bounce"
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">{item.title}</h3>
               <p>{item.description}</p>
