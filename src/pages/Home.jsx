@@ -9,9 +9,10 @@ import { motion } from "framer-motion";
 import Service from "./Service";
 import bg1 from "../assets/image/bagr1.png";
 import bg2 from "../assets/image/bagr2.png";
-import Count from "./Count";
 import Journey from "./Journey";
-import TestimonialCard from "../container/ui/TestimonialCard";
+import Busnnes from "./Busnnes";
+import ContactUs from "./ContactUs";
+import Testimonials from "./Testimonials";
 
 const images = [imgone, imgtwo, imgthree, imgfour];
 
@@ -103,7 +104,7 @@ const Home = () => {
         </section>
       </div>
 
-      <div className="mb-10">
+      <div className="mb-4">
         <div className="absolute ">
           <img className="animate-pulse" src={bg1} alt="" />
         </div>
@@ -114,11 +115,26 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="container ">
+      <div className="container dn">
         <section>
           <Journey />
         </section>
-      </div> */}
+      </div>
+
+      <section className="mb-10">
+        <div className="container mx-auto">
+          <div className="text-center text-white mb-10">
+            <h1 className="text-4xl font-bold">We Protect Your business 🔒 </h1>
+          </div>
+          <Busnnes />
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <div className="container">
+          <Testimonials />
+        </div>
+      </section>
     </div>
   );
 };
