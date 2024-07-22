@@ -9,7 +9,7 @@ import ball2 from "../assets/image/3d-cross-design-1.png";
 
 const About = () => {
   return (
-    <div className="bg-about-background bg-no-repeat bg-cover p-8">
+    <div className=" p-8">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-center ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">

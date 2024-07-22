@@ -11,8 +11,8 @@ import bg1 from "../assets/image/bagr1.png";
 import bg2 from "../assets/image/bagr2.png";
 import Journey from "./Journey";
 import Busnnes from "./Busnnes";
-import ContactUs from "./ContactUs";
 import Testimonials from "./Testimonials";
+import ContactUsForm from "./ContactUsForm";
 
 const images = [imgone, imgtwo, imgthree, imgfour];
 
@@ -98,10 +98,12 @@ const Home = () => {
         <div className="time"></div>
       </div>
 
-      <div className="container">
-        <section>
-          <About />
-        </section>
+      <div className="bg-about-background bg-no-repeat bg-cover">
+        <div className="container">
+          <section>
+            <About />
+          </section>
+        </div>
       </div>
 
       <div className="mb-4">
@@ -133,6 +135,12 @@ const Home = () => {
       <section className="mb-10">
         <div className="container">
           <Testimonials />
+        </div>
+      </section>
+
+      <section className="mb-10 bg-contactbg bg-no-repeat bg-cover ">
+        <div className="container">
+          <ContactUsForm />
         </div>
       </section>
     </div>

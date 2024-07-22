@@ -27,12 +27,13 @@ module.exports = {
       backgroundImage: {
         "about-background": "url('./src/assets/image/about-dot-vector.png')",
         "service-bg": "url('./src/assets/image/bagr1.png')",
+        contactbg: "url('./src/assets/image/contactbackground.png')",
       },
       boxShadow: {
         1: "0px 4px 30px rgba(0, 0, 0, 0.08)",
       },
       colors: {
-        customBackground: '#1a2037',
+        customBackground: "#1a2037",
       },
     },
   },

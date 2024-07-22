@@ -50,7 +50,7 @@ const Header = () => {
 
         <div
           onClick={toggleMenu}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden text-white"
         >
           {open ? <IoMdClose /> : <IoMenu />}
         </div>
