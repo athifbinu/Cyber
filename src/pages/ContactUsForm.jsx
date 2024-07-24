@@ -7,49 +7,52 @@ const ContactUsForm = () => {
         <div className="text-center mb-7">
           <h2 className="text-2xl text-blue-400 mb-6">Get started now</h2>
           <h1 className="font-bold text-white text-4xl">
-            Send Us a Message 💬{" "}
+            Send Us a Message 💬
           </h1>
         </div>
 
         <div>
           <div>
             <form action="#">
-              <div className="grid lg:grid-cols-3 sm:grid-cols-1  mb-4 items-center">
+              <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mb-4 items-center">
                 <div>
                   <label
-                    htmlFor="message"
+                    htmlFor="name"
                     className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                   >
                     Enter your name
                   </label>
                   <input
-                    className="p-2 text-white rounded-lg border border-none dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                    id="name"
+                    className="p-2 w-full text-white rounded-lg border-none dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
                     type="text"
                     placeholder="name"
                   />
                 </div>
                 <div>
                   <label
-                    htmlFor="message"
+                    htmlFor="email"
                     className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                   >
                     Enter your email
                   </label>
                   <input
-                    className="p-2 text-white rounded-lg border border-none dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                    id="email"
+                    className="p-2 w-full text-white rounded-lg border-none dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
                     type="email"
-                    placeholder="name"
+                    placeholder="email"
                   />
                 </div>
                 <div>
                   <label
-                    htmlFor="message"
+                    htmlFor="number"
                     className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                   >
                     Enter your contact number
                   </label>
                   <input
-                    className="p-2 text-white rounded-lg border border-none dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                    id="number"
+                    className="p-2 w-full text-white rounded-lg border-none dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
                     type="text"
                     placeholder="number"
                   />
@@ -65,14 +68,14 @@ const ContactUsForm = () => {
                 <textarea
                   id="message"
                   rows="4"
-                  className="block text-white p-3.5 w-full text-sm rounded-lg  border border-none dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                  className="block w-full text-white p-3.5 text-sm rounded-lg border-none dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
                   placeholder="Write message here..."
                 ></textarea>
               </div>
 
-              <div className="justify-center p-3">
-                <button className="p-2 font-bold bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-white rounded-lg">
-                  Submit
+              <div className=" p-3">
+                <button class="bg-gradient-to-r font-bold  from-fuchsia-500 to-cyan-500 border-none rounded-xl text-white py-3 px-8 text-center   transition duration-300 hover: hover:text-white">
+                  Button
                 </button>
               </div>
             </form>

@@ -11,7 +11,7 @@ const Service = () => {
   const cardRefs = useRef([]);
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -38,25 +38,73 @@ const Service = () => {
 
   const items = [
     {
-      title: "Computer Security",
+      title: "Website security ",
       description:
         "Quis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
       img: service1,
     },
     {
-      title: "Folder Security",
+      title: "Website security ",
       description:
         "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
       img: service2,
     },
     {
-      title: "Folder Security",
+      title: "Website security ",
       description:
         "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
       img: service2,
     },
     {
-      title: "Folder Security",
+      title: "Website security ",
+      description:
+        "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
+      img: service2,
+    },
+    {
+      title: "Penetration testing",
+      description:
+        "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
+      img: service2,
+    },
+    {
+      title: "Website security ",
+      description:
+        "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
+      img: service2,
+    },
+    {
+      title: "Website security ",
+      description:
+        "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
+      img: service2,
+    },
+    {
+      title: "Website security ",
+      description:
+        "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
+      img: service2,
+    },
+    {
+      title: "Website security  ",
+      description:
+        "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
+      img: service2,
+    },
+    {
+      title: "Website security ",
+      description:
+        "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
+      img: service2,
+    },
+    {
+      title: "Website security ",
+      description:
+        "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
+      img: service2,
+    },
+    {
+      title: "Website security",
       description:
         "Ruis autem vel eum iure repre rui in ea voluptate velit esse ua nihil molestiae.",
       img: service2,

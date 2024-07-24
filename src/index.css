@@ -9,3 +9,27 @@ body {
   margin: 0;
   background: #1a2037;
 }
+
+
+
+/* responsive */
+
+@media (max-width: 800px) {
+  .mrt {
+    margin-top: -8px;
+  }
+  .dn {
+    display: none;
+  }
+  .profile-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    margin: auto;
+    left: 8px;
+  }
+  .mb {
+    margin-bottom: 60px;
+  }
+}

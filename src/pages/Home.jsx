@@ -139,7 +139,7 @@ const Home = () => {
       </section>
 
       <section className="mb-10 bg-contactbg bg-no-repeat bg-cover ">
-        <div className="container">
+        <div className="container mx-auto">
           <ContactUsForm />
         </div>
       </section>

@@ -7,8 +7,8 @@ const Testimonials = () => {
   return (
     <div className="container mx-auto p-4">
       <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center">
-        <div className="lg:order-2">
-          <img src={img1} alt="Customer Testimonial" />
+        <div className="lg:order-2  ">
+          <img className="mb" src={img1} alt="Customer Testimonial" />
         </div>
         <div className="lg:order-1">
           <div className="flex gap-6 mb-6">
@@ -43,7 +43,6 @@ const Testimonials = () => {
               </div>
             </div>
           ))}
-
           {/* Slider end */}
         </div>
       </div>

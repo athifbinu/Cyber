@@ -67,12 +67,3 @@
 .menu.show {
   display: block;
 }
-
-@media (max-width: 800px) {
-  .mrt {
-    margin-top: -8px;
-  }
-  .dn {
-    display: none;
-  }
-}
